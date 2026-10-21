@@ -1,1 +1,260 @@
-/* место для вашего кода */
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    width: 391.48px;
+    top: 133px;
+    left: 50px;
+}
+
+.menu_li {
+    text-decoration: underline;
+}
+
+.icon {
+    position: relative;
+    width: 148px;
+    height: 105px;
+    top: 92px;
+    left: 478px;
+}
+
+.contacts {
+    display: flex;
+    position: relative;
+    width: 240px;
+    height: 98px;
+    left: 810px;
+    border-width: 1px;
+    flex-direction: column;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    width: 1100px;
+    height: 757px;
+    background-image: url('../images/cover.jpg');
+}
+
+.main_title {
+    display: flex;
+    position: relative;
+    width: 1000px;
+    height: 385px;
+    justify-content: space-around;
+    top: 165px;
+    left: 50px;
+}
+
+.part {
+    color: white;
+    font-size: 100px;
+    font-style: Bold;
+}
+
+.one {
+    align-self: start;
+}
+
+.two {
+    align-self: center;
+}
+
+.three {
+    align-self: end;
+}
+
+.main_descript {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    width: 1000px;
+    height: 51px;
+    top: 256px;
+    left: 50px;
+}
+
+.desc_one {
+    width: 637px;
+    height: 28px;
+    color: white;
+    line-height: 28px;
+    font-size: 25px;
+}
+
+.desc_two {
+    width: 256px;
+    height: 51px;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    border: 1px solid white;
+}
+
+.lots {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 1052px;
+    height: 723px;
+    margin-top: 90px;
+    left: 24px;
+}
+
+.lots_more {
+    position: relative;
+    top: 100px;
+    left: 40px;
+    width: 192px;
+    height: 25px;
+}
+
+.lots_content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.lots_card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+    position: relative;
+    width: 334px;
+    height: 596px;
+    top: 74px;
+}
+
+.card1 {
+    background-image: url("../images/card-lot-01.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.card2 {
+    background-image: url("../images/card-lot-02.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.card3 {
+    background-image: url("../images/card-lot-03.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.card_title {
+    position: relative;
+    width: 254px;
+    height: 110px;
+    top: 48px;
+    left: 40px;
+    text-decoration: underline;
+}
+
+.card_text1 {
+    position: relative;
+    font-size: 20px;
+    width: 254px;
+    height: 144px;
+    left: 40px;
+    bottom: 20px;
+}
+
+.card_text2 {
+    position: relative;
+    font-size: 20px;
+    width: 254px;
+    height: 360px;
+    left: 40px;
+    bottom: 20px;
+}
+
+.card_text3 {
+    position: relative;
+    font-size: 20px;
+    width: 254px;
+    height: 264px;
+    left: 40px;
+    bottom: 20px;
+}
+
+.about {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: relative;
+    width: 1052px;
+    height: 595px;
+    top: 100px;
+}
+
+.about_icon {
+    position: relative;
+    width: 240px;
+    height: 240px;
+    left: 47px;
+    align-self: start;
+    background-color: black;
+    border-radius: 150px;
+}
+
+.round_icon {
+    position: relative;
+    width: 148px;
+    height: 114px;
+    top: 64px;
+    left: 47px;
+}
+
+.about_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 693px;
+    height: 449px;
+    align-self: end;
+}
+
+.about_text {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.text1 {
+    width: 688px;
+    height: 120px;
+}
+
+.text2 {
+    width: 693px;
+    height: 168px;
+}
+
+.footer_img {
+    width: 48px;
+    height: 48px;
+}
+
+.footer_menu {
+    display: flex;
+    flex-direction: column;
+    width: 163.9px;
+    height: 64px;
+}
+
+.footer_contacts {
+    display: flex;
+    flex-direction: column;
+    width: 264.57px;
+    height: 98px;
+}
+
+.socials {
+    display: flex;
+    justify-content: space-between;
+    width: 240px;
+    height: 48px;
+}

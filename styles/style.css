@@ -184,7 +184,7 @@
 .about {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     position: relative;
     width: 1052px;
     height: 595px;
@@ -221,16 +221,21 @@
 .about_text {
     display: flex;
     flex-direction: column-reverse;
+    justify-content: space-between;
 }
 
 .text1 {
     width: 688px;
     height: 120px;
+    font-size: 20px;
 }
 
 .text2 {
+    position: relative;
     width: 693px;
     height: 168px;
+    font-size: 20px;
+    top: 15px;
 }
 
 .footer_img {

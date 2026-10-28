@@ -4,6 +4,7 @@
     justify-content: space-between;
     position: relative;
     width: 391.48px;
+    height: 22px;
     top: 133px;
     left: 50px;
 }
@@ -41,7 +42,6 @@
     position: relative;
     width: 1000px;
     height: 385px;
-    justify-content: space-around;
     top: 165px;
     left: 50px;
 }
@@ -58,27 +58,35 @@
 }
 
 .two {
+    width: 339px;
+    height: 115px;
     align-self: center;
 }
 
 .three {
+    position: relative;
+    width: 387px;
+    height: 115px;
+    right: 50px;
     align-self: end;
 }
 
 .main_descript {
     display: flex;
     position: relative;
-    justify-content: space-between;
+    justify-content: space-around;
     width: 1000px;
     height: 51px;
-    top: 256px;
+    top: 270px;
     left: 50px;
 }
 
 .desc_one {
+    position: relative;
     width: 637px;
     height: 28px;
     color: white;
+    top: 11px;
     line-height: 28px;
     font-size: 22px;
     font-weight: 400;
@@ -217,6 +225,11 @@
     height: 114px;
     top: 64px;
     left: 47px;
+}
+
+.about_title{
+    font-size: 40px;
+    font-weight: 700;
 }
 
 .about_content {

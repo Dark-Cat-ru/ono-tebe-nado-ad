@@ -9,6 +9,21 @@
     left: 50px;
 }
 
+.menu_item1 {
+    width: 67px;
+    height: 21px;
+}
+
+.menu_item2 {
+    width: 169.48px;
+    height: 22px;
+}
+
+.menu_item3 {
+    width: 129.48px;
+    height: 22px;
+}
+
 .icon {
     position: relative;
     width: 148px;
@@ -20,11 +35,22 @@
 .contacts {
     display: flex;
     position: relative;
+    flex-direction: column;
     width: 240px;
     height: 98px;
     left: 810px;
     border-width: 1px;
-    flex-direction: column;
+    top: -35px;
+}
+
+.contacts_item{
+    width: 239.48px;
+    height: 24px;
+}
+
+.contacts_item3{
+    width: 236.49px;
+    height: 49px;
 }
 
 .main {
@@ -61,20 +87,22 @@
     width: 339px;
     height: 115px;
     align-self: center;
+    position: relative;
+    left: 15px;
 }
 
 .three {
     position: relative;
     width: 387px;
     height: 115px;
-    right: 50px;
+    right: 40px;
     align-self: end;
 }
 
 .main_descript {
     display: flex;
     position: relative;
-    justify-content: space-around;
+    justify-content: space-between;
     width: 1000px;
     height: 51px;
     top: 270px;
@@ -126,6 +154,8 @@
     left: 40px;
     width: 192px;
     height: 25px;
+    font-size: 20px;
+    font-weight: 400;
 }
 
 .lots_content {
@@ -142,23 +172,23 @@
     position: relative;
     width: 334px;
     height: 596px;
-    top: 74px;
+    top: 47px;
 }
 
 .card1 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("../images/card-lot-01.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/card-lot-01.jpg");
     background-position: center;
     background-size: cover;
 }
 
 .card2 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("../images/card-lot-02.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/card-lot-02.jpg");
     background-position: center;
     background-size: cover;
 }
 
 .card3 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("../images/card-lot-03.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/card-lot-03.jpg");
     background-position: center;
     background-size: cover;
 }
@@ -178,7 +208,7 @@
     width: 254px;
     height: 144px;
     left: 40px;
-    bottom: 20px;
+    bottom: 48px;
 }
 
 .card_text2 {
@@ -187,7 +217,7 @@
     width: 254px;
     height: 360px;
     left: 40px;
-    bottom: 20px;
+    bottom: 48px;
 }
 
 .card_text3 {
@@ -196,7 +226,7 @@
     width: 254px;
     height: 264px;
     left: 40px;
-    bottom: 20px;
+    bottom: 48px;
 }
 
 .about {

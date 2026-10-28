@@ -13,7 +13,7 @@
     position: relative;
     width: 148px;
     height: 105px;
-    top: 92px;
+    top: 68px;
     left: 478px;
 }
 
@@ -32,7 +32,7 @@
     flex-direction: column;
     width: 1100px;
     height: 757px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url('../images/cover.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../images/cover.jpg');
     background-position: center;
     background-size: cover;
 }
@@ -106,7 +106,7 @@
     position: relative;
     width: 1052px;
     height: 723px;
-    margin-top: 180px;
+    margin-top: 160px;
     left: 24px;
 }
 
@@ -115,7 +115,8 @@
     width: 121px;
     height: 47px;
     left: 40px;
-    top: 30px;
+    top: 20px;
+    font-size: 40px;
     opacity: 1;
 }
 
@@ -227,7 +228,7 @@
     left: 47px;
 }
 
-.about_title{
+.about_title {
     font-size: 40px;
     font-weight: 700;
 }
